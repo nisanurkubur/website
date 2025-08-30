@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: palevioletred;
+    front-size: 66;
+    text-transform: uppercase;
+    background-color: bisque;
+}
+
+p {
+    front-size: 46;
+}
+
+ul {
+    color: rgb(238, 95, 231)
+}

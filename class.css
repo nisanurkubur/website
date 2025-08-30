@@ -1,0 +1,45 @@
+/* class-> .text-red {}*/
+/* id-> #id-bilgisi{} */
+
+#first-article {
+    /*ilk article da olan her şey değişir.*/
+    font-size: 40px;
+}
+
+p {
+    font-size: 27px;
+}
+
+/* tüm paragraflar aynı olur.*/
+
+.text-red {
+    color: red;
+}
+
+.fs-small {
+    font-size: 9px;
+}
+
+/*Font size*/
+
+.fs-medium {
+    font-size: 37px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+/* h1.fs30 dersek 30classın içinde*/
+/*h1.fs30.text-red*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: chartreuse;
+}
+
+/* birden fazla kelime arasında - koymayı unutma*/
