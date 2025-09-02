@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* kutular en üstte arada hiç boşluk yok*/
+}
+
+.leftbar {
+    width: 200px;
+}
+
+.conta {
+    width: 1000px;
+}
+
+.content {
+    width: 800px;
+}
+
+.box {
+
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    /* margin: 20px; */
+    /* her yerden 20px kare şeklinde*/
+    /* margin-top: 100px; */
+    /* sadece yukarıdan boşluk bırakır.*/
+    float: left;
+    margin-right: 20px;
+
+}
+
+.bgr {
+    background-color: red;
+}
+
+.bgy {
+    background-color: yellow;
+}
+
+.bgp {
+    background-color: purple;
+}
+
+.bgb {
+    background-color: blue;
+}
+
+.bgg {
+    background-color: green;
+}
+
+/* margin-left:auto
+margin-right:auto sayfada ortalar */
+
+
+/*Padding yazının daha içte başlamasını sağlar.
+Margin kutuları birbirinden ayırır. margin: 20px; her yerden 20px kare şeklinde margin-top:10px sadece yukarıdan margin left-right:auto ortaladı 
+
+Float left kutuları yanyana getirir.
+
+border radius:10px; kenarları yuvarlar

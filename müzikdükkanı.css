@@ -29,3 +29,5 @@ p {
 .uniq * {
     all: unset;
 }
+
+/* (*)Bu seçiciyi kullanarak tüm etiketlere CSS uygula demiş oluyoruz. */
