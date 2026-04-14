@@ -1,0 +1,97 @@
+/* Sayfa Geneli */
+body {
+    background-color: #fafafa !important;
+    /* Instagram arka plan rengi */
+    padding-top: 70px;
+    /* Navbar içerikle birleşmesin diye */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Navbar Ayarları */
+.navbar {
+    height: 54px !important;
+    background-color: white !important;
+}
+
+.logo {
+    margin-left: 192px;
+    /* Maddelerdeki 192px kuralı */
+}
+
+/* Arama ve Placeholder */
+.search-input {
+    height: 28px;
+    width: 216px;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 14px;
+}
+
+::placeholder {
+    background-image: url('https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev-instagram/assets/search.png');
+    background-repeat: no-repeat;
+    background-position: 30%;
+    /* İkonu metnin yanına hizalamak için */
+    background-size: 12px;
+    color: #8e8e8e;
+}
+
+/* Middle Area Kısıtlaması */
+.middlearea {
+    max-height: 200px !important;
+    /* !important kuralı */
+    border: 1px solid #dbdbdb;
+    background-color: white;
+}
+
+/* Hikayeler */
+.storyphoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #ee2752;
+    /* Instagram hikaye halkası */
+    padding: 2px;
+}
+
+.storytext {
+    font-size: 12px;
+    display: block;
+    /* İsmin resmin altına gelmesi için */
+    text-align: center;
+    width: 65px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Card Düzenlemeleri */
+.card-header,
+.card-footer {
+    background-color: white !important;
+    border-bottom: 1px solid #efefef;
+}
+
+.card {
+    border: 1px solid #dbdbdb;
+}
+
+.no-border-area i {
+    cursor: pointer;
+}
+
+/* Sağ Panel Sabitleme (Sticky) */
+.stickysidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    /* Navbar'ın altında durması için */
+}
+
+.rightpanel {
+    background-color: transparent;
+    /* İstenen beyaz arka planı konteynere göre ayarlar */
+    border: none !important;
+}
+
+/* Sağ paneldeki yazıların sağa alınması için HTML'de ml-auto kullandık */
